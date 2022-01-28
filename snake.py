@@ -22,7 +22,7 @@ win.border(0)
 win.nodelay(1) #continues without a new keypress
 
 #snake & food
-snake = [(4, 10), (4, 9), (4, 8)] #storing the coordinates
+snake = [(4, 10), (4, 9), (4, 8), (4, 7), (4, 6), (4, 5), (4, 4), (4, 3), (4, 2), (4, 1), (4, 0), (4, -1), (4, -2), (4, -3), (4, -4), (4, -5), (4, -6), (4, -7), (4, -8), (4, -9), (4, -10)] #storing the coordinates
 food = (10, 20)
 
 win.addch(food[0], food[1], '#')
